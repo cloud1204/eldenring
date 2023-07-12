@@ -13,7 +13,10 @@ int32_t main(int32_t argc, char* argv[]) {
     
     /// start input ///
     
-    int n = inf.readInt(MINN, MAXN, "n"); inf.readEoln();
+    int n = inf.readInt(MINN, MAXN, "n");
+    inf.readSpace();
+    int k = inf.readInt(1, MAXK, "k");
+    inf.readEoln();
     int a[n];
     for (int i = 0; i < n; i++){
     	a[i] = inf.readInt(1, MAXA, "a_i");

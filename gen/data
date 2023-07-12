@@ -7,8 +7,7 @@ manual example-01.in
 # # # # # # # # # # # # # # # # # # # # # # # #
 
 @subtask full
-@include samples s1-brute
-
+@include samples
 gen --type=random 10
 
 # # # # # # # # # # # # # # # # # # # # # # # #
