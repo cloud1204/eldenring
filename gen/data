@@ -8,6 +8,20 @@ manual example-01.in
 
 @subtask full
 @include samples
-gen --type=random 10
-
+gen --type=random --maxn=100
+gen --type=random --maxn=1000 --minn=500
+gen --type=random --minn=100000
+gen --type=random --minn=200000
+gen --type=random --minn=300000
+gen --type=random --minn=300000 --smallk=1
+gen --type=random --minn=250000 --smallk=1
+gen --type=random --minn=200000 --smallk=1
+gen --type=big_ans --minn=200000
+gen --type=big_ans --minn=250000
+gen --type=big_ans --minn=300000
+gen --type=big_ans --minn=200000 smallk=1
+gen --type=big_ans --minn=250000 smallk=1
+gen --type=big_ans --minn=300000 smallk=1
+gen --type=already_multiple --minn=300000 smallk=1
+gen --type=already_multiple --minn=200000
 # # # # # # # # # # # # # # # # # # # # # # # #
