@@ -1,0 +1,14 @@
+# # # # # # # # # # # # # # # # # # # # # # # #
+
+@subtask samples
+
+manual example-01.in
+
+# # # # # # # # # # # # # # # # # # # # # # # #
+
+@subtask full
+@include samples s1-brute
+
+gen --type=random 10
+
+# # # # # # # # # # # # # # # # # # # # # # # #
