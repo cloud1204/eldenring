@@ -1,6 +1,6 @@
 # Elden Ring
 
-This problem is used in IONC 2023 Day5 Practice Contest.
+IONC 2023 Practice Problem (Original)
 
 ## Problem Statement
 
